@@ -1,0 +1,14 @@
+cc_library_static {
+    name: "libinit_Tecno_KL7",
+    header_libs: [
+        "libbase_headers",
+    ],
+    cflags: [
+        "-Wall",
+    ],
+    static_libs: [
+        "libbase",
+    ],
+    srcs: ["init_Tecno_KL7.cpp"],
+    recovery_available: true,
+}
